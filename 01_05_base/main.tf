@@ -147,7 +147,7 @@ data "aws_ami" "aws-linux" {
 }
 
 # //////////////////////////////
-# OUTPUT
+# OUTPUT  ssh -i path to .pem @ec2user
 # //////////////////////////////
 output "instance-dns" {
   value = aws_instance.nodejs1.public_dns
