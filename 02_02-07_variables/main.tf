@@ -184,6 +184,7 @@ output "instance-dns" {
   value = aws_instance.nodejs1.public_dns
 }
 
+#Created new Output variable
 output "private-dns" {
 value = aws_instance.nodejs1.private_dns
 }
