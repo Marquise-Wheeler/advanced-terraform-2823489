@@ -32,3 +32,6 @@
 # Ignored vscode files
 .vscode/
 commands.txt
+
+# .swp files
+*.swp

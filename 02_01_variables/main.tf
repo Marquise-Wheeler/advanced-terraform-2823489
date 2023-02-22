@@ -148,7 +148,7 @@ resource "aws_instance" "nodejs1" {
 
   monitoring = var.environment_instance_settings["PROD"].monitoring
 
-  tags = {Environment = var.environment_list[0]}
+  tags = {Environment = var.environment_map["DEV"]}
 
 }
 
